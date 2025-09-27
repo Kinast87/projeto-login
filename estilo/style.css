@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: rgb(126, 4, 240);
+}
+main{
+    margin: auto;
+    margin-top: 10px;
+    background-color: yellow;
+    border: 1px solid red;
+    width: 255px;
+    height: 500px;
+    border-radius: 20px;
+}
+.imagem{
+    height: 170px;
+    background: black url(../imagens/pexels-jonas-horsch-102497290-32859648\ \(1\).jpg) no-repeat;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+}
+.dados{
+    background-color: white;
+    height: 330px;
+    border-radius: 0 0 20px 20px;
+}
+.dados h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+}
+.dados p {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+#email{
+    border: 2px solid rgb(126, 4, 240);
+    height: 33px;
+    border-radius: 5px;
+    width: 240px;
+    background-color: rgba(29, 149, 185, 0.548);
+}
+#email:focus{
+    background-color: white;
+}
+#senha{
+    border: 2px solid rgb(126, 4, 240);
+    height: 33px;
+    border-radius: 5px;
+    width: 240px;
+    background-color: rgba(29, 149, 185, 0.548);
+}
+#senha:focus{
+    background-color: white;
+}
+#entrar{
+    border: 2px solid rgba(29, 149, 185, 0.144);
+    height: 40px;
+    border-radius: 5px;
+    width: 240px;
+    background-color: rgba(50, 172, 209, 0.856);
+    color: white;
+    font-weight: 500;
+}
+#entrar:hover{
+    background-color: rgba(13, 119, 158, 0.699);
+}
+#esquecer{
+    margin-top: 4px;
+    border: 2px solid rgba(13, 58, 71, 0.822);
+    height: 40px;
+    border-radius: 5px;
+    width: 240px;
+    color: rgba(21, 111, 139, 0.952);
+    background-color: white;
+    font-weight: 500;
+}
+#esquecer:hover{
+    background-color: rgba(19, 115, 150, 0.596);
+}

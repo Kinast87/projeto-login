@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width:992px) {
+    main{
+        margin-top: 70px;
+        width: 80vw;
+        height: 280px;
+        display: flex;
+    }
+    .imagem{       
+        height: 280px;
+        width: 30vw;
+        border-radius: 20px 0 0 20px;
+    }
+    .dados{
+        height: 280px;
+        width: 70vw;
+        border-radius: 0 20px 20px 0;
+    }
+    #email{
+        width: 60vw;
+        margin-right: 5px;
+    }
+    #senha{
+        width: 60vw;
+        margin-right: 5px;
+    }
+    #entrar{
+        width: 60vw;
+        margin-right: 5px;
+    }
+    #esquecer{
+        width: 60vw;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+     main{
+        margin-top: 150px;
+        width: 80vw;
+        height: 280px;
+        display: flex;
+    }    
+     .imagem{
+        margin-left: 50vw;
+        position: absolute;
+        height: 280px;
+        width: 30vw;
+        border-radius: 0 20px 20px 0;
+    }
+    .dados{
+        position: relative;
+        margin-left: 0;
+        height: 280px;
+        width: 50vw;
+        border-radius: 20px 0 0 20px;
+    }
+    #email{
+        width: 48vw;
+        margin-right: 5px;
+    }
+    #senha{
+        width: 48vw;
+        margin-right: 5px;
+    }
+    #entrar{
+        width: 48vw;
+        margin-right: 5px;
+    }
+    #esquecer{
+        width: 48vw;
+        margin-right: 5px;
+    }
+}
