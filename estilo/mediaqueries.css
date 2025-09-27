@@ -3,7 +3,7 @@
 @media screen and (min-width: 600px) and (max-width:992px) {
     main{
         margin-top: 70px;
-        width: 80vw;
+        width: 90vw;
         height: 280px;
         display: flex;
     }
@@ -17,13 +17,8 @@
         width: 70vw;
         border-radius: 0 20px 20px 0;
     }
-    #email{
-        width: 60vw;
-        margin-right: 5px;
-    }
-    #senha{
-        width: 60vw;
-        margin-right: 5px;
+    .dado{
+        width: 55vw;
     }
     #entrar{
         width: 60vw;
@@ -56,12 +51,8 @@
         width: 50vw;
         border-radius: 20px 0 0 20px;
     }
-    #email{
-        width: 48vw;
-        margin-right: 5px;
-    }
-    #senha{
-        width: 48vw;
+    .dado{
+        width: 45vw;
         margin-right: 5px;
     }
     #entrar{

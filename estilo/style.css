@@ -11,21 +11,20 @@ html, body{
 main{
     margin: auto;
     margin-top: 10px;
-    background-color: yellow;
     border: 1px solid red;
-    width: 255px;
-    height: 500px;
+    width: 45vw;
+    height: 80vw;
     border-radius: 20px;
 }
 .imagem{
-    height: 170px;
+    height: 30vw;
     background: black url(../imagens/pexels-jonas-horsch-102497290-32859648\ \(1\).jpg) no-repeat;
     border-radius: 20px 20px 0 0;
     background-size: cover;
 }
 .dados{
     background-color: white;
-    height: 330px;
+    height: 61vw;
     border-radius: 0 0 20px 20px;
 }
 .dados h1{
@@ -33,52 +32,51 @@ main{
     text-align: center;
     font-weight: 1000;
 }
-.dados p {
-    padding-left: 8px;
-    padding-top: 8px;
-}
-#email{
-    border: 2px solid rgb(126, 4, 240);
-    height: 33px;
+
+.dado{
+    font-size: 1em;
+    border: 0.5px solid rgb(126, 4, 240);
+    height: 5vw;
     border-radius: 5px;
-    width: 240px;
-    background-color: rgba(29, 149, 185, 0.548);
+    width: 33vw;
+    background-color: rgba(78, 190, 224, 0.823);
 }
-#email:focus{
+.dado:focus{
     background-color: white;
 }
-#senha{
-    border: 2px solid rgb(126, 4, 240);
-    height: 33px;
-    border-radius: 5px;
-    width: 240px;
-    background-color: rgba(29, 149, 185, 0.548);
+.material-icons{
+    padding-top: 2px;
+    color: white;
 }
-#senha:focus{
-    background-color: white;
-}
-#entrar{
-    border: 2px solid rgba(29, 149, 185, 0.144);
-    height: 40px;
-    border-radius: 5px;
-    width: 240px;
+#entrar{   
+    border: 2px solid rgba(29, 149, 185, 0.144);    
     background-color: rgba(50, 172, 209, 0.856);
     color: white;
+}
+.confirm{
+    margin-top: 4px;
+    height: 8vw;
+    border-radius: 5px;
+    width: 43vw;
     font-weight: 500;
+    margin-left: 3px;
 }
 #entrar:hover{
     background-color: rgba(13, 119, 158, 0.699);
 }
 #esquecer{
-    margin-top: 4px;
-    border: 2px solid rgba(13, 58, 71, 0.822);
-    height: 40px;
-    border-radius: 5px;
-    width: 240px;
+    border: 2px solid rgba(13, 58, 71, 0.822);    
     color: rgba(21, 111, 139, 0.952);
-    background-color: white;
-    font-weight: 500;
+    background-color: white;    
 }
 #esquecer:hover{
     background-color: rgba(19, 115, 150, 0.596);
+}
+.campo{
+    background-color: rgb(126, 4, 240);
+    width: 43vw;
+    height: 8vw;
+    margin-top: 5px;
+    border-radius: 15px;
+    margin-left: 4px;
 }

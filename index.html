@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css" >
     <link rel="stylesheet" href="estilo/mediaqueries.css">
+    
     <title>Login</title>
+
 </head>
 <body>
     <main>
@@ -16,15 +19,20 @@
                 Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
             </p>
             <form action="cadastro.php">
+                    <p class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="email" class="dado" placeholder="Seu e-mail">
+                        <label for="email"></label>
+                    </p>
+                    <p class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="senha" class="dado" placeholder="Sua senha">
+                        <label for="senha"></label>
+                    </p>
+                </div>
                 <p>
-                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
-                </p>
-                <p>
-                    <input type="password" name="senha" id="senha" placeholder="Sua senha">
-                </p>
-                <p>
-                    <input type="submit" value="Entrar" id="entrar"><br>
-                    <input type="submit" value="Esqueci a  Senha" id="esquecer"><br>
+                    <input type="submit" class="confirm" value="Entrar" id="entrar"><br>
+                    <input type="submit" class="confirm" value="Esqueci a  Senha" id="esquecer"><br>
                 </p>
             </form>
         </section>
