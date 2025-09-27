@@ -18,7 +18,7 @@ main{
 }
 .imagem{
     height: 30vw;
-    background: black url(../imagens/pexels-jonas-horsch-102497290-32859648\ \(1\).jpg) no-repeat;
+    background: black url(../imagens/pexels-jonas-horsch-102497290-32859648\ \(1\).jpg) no-repeat center center;
     border-radius: 20px 20px 0 0;
     background-size: cover;
 }

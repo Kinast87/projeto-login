@@ -2,23 +2,30 @@
 
 @media screen and (min-width: 600px) and (max-width:992px) {
     main{
-        margin-top: 70px;
+        margin-top: 20vw;
         width: 90vw;
-        height: 280px;
+        height: 40vw;
         display: flex;
     }
     .imagem{       
-        height: 280px;
+        height: 40vw;
         width: 30vw;
         border-radius: 20px 0 0 20px;
     }
     .dados{
-        height: 280px;
+        height: 40vw;
         width: 70vw;
         border-radius: 0 20px 20px 0;
     }
     .dado{
         width: 55vw;
+        margin-top: 8px;
+        height: 3.5vw;
+    }
+    .confirm{
+        height: 6vw;
+        margin-left: 7px;
+        font-weight: 500;
     }
     #entrar{
         width: 60vw;
@@ -28,30 +35,40 @@
         width: 60vw;
         margin-right: 5px;
     }
+    .campo{
+        display: flex;
+        width: 61vw;
+        height: 6vw;
+    }
+    .material-icons{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
      main{
-        margin-top: 150px;
         width: 80vw;
-        height: 280px;
         display: flex;
+        margin-top: 10vw;
+        height: 28vw;
     }    
      .imagem{
         margin-left: 50vw;
         position: absolute;
-        height: 280px;
+        height: 28vw;
         width: 30vw;
         border-radius: 0 20px 20px 0;
     }
     .dados{
         position: relative;
         margin-left: 0;
-        height: 280px;
+        height: 28vw;
         width: 50vw;
         border-radius: 20px 0 0 20px;
     }
     .dado{
+        margin-top: 7px;
+        height: 3.5vw;
         width: 45vw;
         margin-right: 5px;
     }
@@ -62,5 +79,16 @@
     #esquecer{
         width: 48vw;
         margin-right: 5px;
+    }
+    .campo{
+        display: flex;
+        height: 5vw;
+        width: 48vw;
+    }
+    .material-icons{
+        margin-top: 15px;
+    }
+    .confirm{
+        height: 4vw;
     }
 }
